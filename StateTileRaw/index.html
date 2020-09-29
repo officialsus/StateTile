@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.css" />
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/nav-css.css" />
+    <!-- <link rel="stylesheet" href="css/nav-css.css" /> -->
     <link rel="stylesheet" href="css/bootstrap.css.map">
     <script
       src="https://code.jquery.com/jquery-3.5.1.js"
@@ -27,77 +27,55 @@
     <script src="js/bootstrap.js"></script>
   <body>
     <header >
-      <!--Navbar-->
-      <nav class="navbar sticky-top navbar-light bg-light d-md-none">
-        <!-- Navbar brand -->
-        <a class="navbar-brand" href="#">State Tile and Flooring</a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+            <a class="navbar-brand" href="index.html">State Tile and Flooring</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+              <ul class="navbar-nav justify-content-center">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </header>
 
-        <!-- Collapse button -->
-        <button
-          class="navbar-toggler first-button"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent20"
-          aria-controls="navbarSupportedContent20"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <div class="animated-icon1">
-            <span></span><span></span><span></span>
-          </div>
-        </button>
 
-        <!-- Collapsible content -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent20">
-          <!-- Links -->
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/contact.html">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/services.html">Our Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/contact.html">Contact Us</a>
-            </li>
-                    </ul>
-          <!-- Links -->
+
+
+    <footer>
+      <!-- footer for mobile -->
+      <div class="container d-sm-none">
+        <div class="d-flex fixed-bottom d-block justify-content-center">
+            <p> 
+                State Tile & Flooring. &copy; <script>new Date().getFullYear()>2010&&document.write(new Date().getFullYear());</script> <br>
+                <a href="mailto:info@statetileandflooring.com ">info@statetileandflooring.com </a> <br>
+                 602.264.5705
+        
+            </p>
         </div>
-        <!-- Collapsible content -->
-      </nav>
-      <!--/.Navbar-->
-    </header>
+        </div>
+<!-- footer for non-mobile -->
+<div class="container d-none d-sm-block">
+<div class="d-flex fixed-bottom d-block justify-content-center">
+<p> 
+<a href="mailto:info@statetileandflooring.com ">info@statetileandflooring.com </a>| State Tile & Flooring. &copy; <script>new Date().getFullYear()>2010&&document.write(new Date().getFullYear());</script> | 602.264.5705
 
-    <header>
-      <nav class="navbar sticky-top navbar-light bg-light d-none d-md-block">
-        <a class="navbar-brand" href="#">State Tile and Flooring</a>
-
-        <ul class="nav justify-content-center">
-          <li class="nav-item">
-            <a class="nav-link active" href="/index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/contact.html">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/services.html">Our Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/contact.html">Contact Us</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <!--[if lt IE 7]>
-      <p class="browsehappy">
-        You are using an <strong>outdated</strong> browser. Please
-        <a href="#">upgrade your browser</a> to improve your experience.
-      </p>
-    <![endif]-->
-
+</p>
+</div>
+</div>
+</footer>
     <script src="" async defer></script>
   </body>
 </html>
